@@ -1,0 +1,3137 @@
+fileFormatVersion: 2
+guid: 49138e648de16e943bafe4362ca8eed8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_0
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1584
+        width: 134
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0191e4d5c0b044a099abd4ad1cba4
+      internalID: 1652604236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_1
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 1604
+        width: 108
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b5976c2bbdb0c4c8d7ce8c130cb181
+      internalID: 636165384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2
+      rect:
+        serializedVersion: 2
+        x: 3282
+        y: 1178
+        width: 242
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c4fbf5c7357a944a4851935b8f6c36
+      internalID: -759369360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_3
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 1630
+        width: 200
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2c41acea5ea044084cf8fccbe37acb
+      internalID: 589693667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1414
+        width: 68
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18150bba52e60ec47a8d2bf028ddf995
+      internalID: 1581710817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1418
+        width: 70
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9003d681a4e22fb48a87cb9d6578df0a
+      internalID: 1150315529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1414
+        width: 71
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c500b5d7200d3419787aee01f5e99d
+      internalID: -700963018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_7
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1463
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919bb80de8633894cb5f3ffc1faacf08
+      internalID: 1641921062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_8
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1467
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e03e0a741d79549b64703918888947
+      internalID: -1624976939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_9
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1426
+        width: 136
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0815f4842dd044e4f8ab270f269f6368
+      internalID: -1956603005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_10
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1410
+        width: 197
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd0dc907c9360a4b9380e10a95c5409
+      internalID: 931644161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_11
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1404
+        width: 68
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c9192ce51910944a4afba4371b01f6
+      internalID: 1976234375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_12
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1406
+        width: 68
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88f4766e6caaf34e997beefd59ce5af
+      internalID: -1518245988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_13
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1402
+        width: 69
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c2bd11cec3398418f050a977235a40
+      internalID: -1289324051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_14
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1414
+        width: 134
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed19221135585e45b9b74f13ec57661
+      internalID: -536245712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_15
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1398
+        width: 197
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf1f53f6ddea494aba2ce8cc7a337d9
+      internalID: 262509881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_16
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 1525
+        width: 133
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae73de8e4b9213848a27bdd600fab8c5
+      internalID: -206140546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_17
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 1171
+        width: 240
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01094bf8c07d41a4fb212ec52e7b0d47
+      internalID: -109247979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_18
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 1153
+        width: 439
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c4581da293a74dbe05af6e5c329b2
+      internalID: -249369606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_19
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1453
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e245011dac1e45bf36335b869d572
+      internalID: 56877944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_20
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1455
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e11bbdb386ce645a3bb1a3322f030d
+      internalID: 1355247672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_21
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1422
+        width: 118
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1983bfc785bfc434e975736e52dbc4db
+      internalID: -1216057610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_22
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 1149
+        width: 357
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fba5b1d93d17d248a7c281d74cadefb
+      internalID: -2138348621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_23
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1202
+        width: 200
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48bd29cc311a2b41ae177b77880bc30
+      internalID: -1834408804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_24
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1367
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57056ab1e71b0324596224293ad68815
+      internalID: 154888573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_25
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1367
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d27f8f6972c96439f4998e87d10bd8
+      internalID: 715156308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_26
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1270
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1c2fd60811efd4ba2a566cbc0e49d6
+      internalID: -421660237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_27
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1255
+        width: 199
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfa2f40a85d0834285beac31efa9325
+      internalID: 1316465829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_28
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1192
+        width: 198
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba8523d17c8a13418ccefcf66eb792d
+      internalID: 1414786940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_29
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1355
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e02b859bd3104dae8a887539fd062
+      internalID: 1383266427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_30
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1355
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afd2678e3fa90f4fb9eb4e2413bb2d9
+      internalID: 1463088488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_31
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1259
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb30e40d1aad3854bb566a27c4ef0f7d
+      internalID: 1344904838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_32
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1243
+        width: 197
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7e8b29353f8eb4887fd2318bbd8beb
+      internalID: -569046485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_33
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1314
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2807b64de70e9c4faf831516b9ffb7c
+      internalID: -1964842425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_34
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1270
+        width: 137
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e33a743b3fbb7d43b304bdd7bac6ca2
+      internalID: 1933849690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_35
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1259
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a4afa3fd939a43bce0da3e10539a0
+      internalID: 663532604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_36
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1286
+        width: 109
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253e005b4c717174892682dbbe00fc2e
+      internalID: -192341795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_37
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1203
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a8fd3040ccf4848bece0713e61058d
+      internalID: -1314703211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_38
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1182
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b902e8dba7bebc4682bcddd9ad31a35
+      internalID: -559190675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_39
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1113
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6187cbf6c61eb0f4987328deab5b673a
+      internalID: 672909917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_40
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1153
+        width: 199
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b35a7ae633d76e4d9491d350a9146f2
+      internalID: 1045082967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1170
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240ad03d2b4e9d40a0cfbc6bdeab6e7
+      internalID: -248702656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_42
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1100
+        width: 130
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84ab7ff538e2c04380a1b31808ebfd7
+      internalID: -2047731925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_43
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1184
+        width: 91
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb73870fec9cce048816a0fc25dac038
+      internalID: 1846103186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_44
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 1219
+        width: 112
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd9535a84bd8224b8b224fe0305bdfb
+      internalID: -745883194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_45
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 980
+        width: 199
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae864ccdffb2fa41a69326da1b69c2b
+      internalID: 1697060699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_46
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1086
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcf6b261e655fb4e8bf76d1950e355b
+      internalID: -1087825484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_47
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 968
+        width: 195
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f95f29018d625c4e8f365734a370dbf
+      internalID: -1344264574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_48
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1141
+        width: 196
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca87a035e2fb85c4594c76415febae51
+      internalID: 1168679046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_49
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1155
+        width: 114
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849ce03d3afe57e4280ae8ec17fd3a22
+      internalID: -1599289896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_50
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1056
+        width: 201
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca7ebb8897cfde4b8bf4729a9c0bdee
+      internalID: 451827847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_51
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1074
+        width: 134
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b55a7c1828c39448e3d9448e21902f
+      internalID: -840445946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_52
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1046
+        width: 200
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4122b9cc893a1d344844a4f10dbea47b
+      internalID: -2021607528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_53
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 1094
+        width: 173
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71d4e1d8d8e2d840ae601341df25740
+      internalID: -169275890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_54
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 1055
+        width: 908
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c363da76ceaccfc4b832388b77a5b0b0
+      internalID: 1501614360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_55
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1046
+        width: 117
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447cb7a24f392684e9a37acc0c15e191
+      internalID: -855397306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_56
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 999
+        width: 136
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3961175ec21b58045a927b5ca031f946
+      internalID: 1858578680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_57
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 956
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92829bb2a77fa8f4b9bbdc8612b43763
+      internalID: -1908305671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_58
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 956
+        width: 203
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44658cf177f5f240a595bb2ced2ed84
+      internalID: -1764822514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_59
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 985
+        width: 136
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd504cfc233e02e42b627818dc51daa0
+      internalID: -1923180558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_60
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 944
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2c55536eb22dc47b22302a5daf1de3
+      internalID: -454009013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_61
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 1025
+        width: 177
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d45572aca72a8143a1f1b33566a5422
+      internalID: 1747757603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_62
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 563
+        width: 283
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487200af060ff2b41b5299ad56e0745e
+      internalID: 1209892116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_63
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 944
+        width: 202
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214b99034024ab42ac6534fea2a2802
+      internalID: 2078663503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_64
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 974
+        width: 165
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb988f6d15099554c97d45605548ad7a
+      internalID: 1710935419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_65
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 571
+        width: 248
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdf78bf4afbb6541b43fa5b9850d076
+      internalID: 1020823988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_66
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 569
+        width: 262
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e86fa5df0714840a9487cc32d75dd9
+      internalID: -590593511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_67
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 841
+        width: 522
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b954d6472bde42881f7e46e7f428f
+      internalID: -1738589268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_68
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 750
+        width: 146
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52463b7fb3a50814abdbcf8b52a97c51
+      internalID: 927356717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_69
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 740
+        width: 210
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471f80dcac00ed341ac476c7f3434fce
+      internalID: -812561868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_70
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 876
+        width: 222
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154ea42b771c046428980fc7e148c421
+      internalID: 2044817406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_71
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 860
+        width: 181
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68634f0c3bfc5f409543cc10c0126d5
+      internalID: -2066495891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_72
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 730
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59c5688ba58ed44f9f25bf3eae1b4eb
+      internalID: -2121844129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_73
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 734
+        width: 26
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e638285f37d0d3489339de68d79c099
+      internalID: 28013981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_74
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 726
+        width: 77
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45195104a9230f4ebd23e7920a37e67
+      internalID: 792182559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_75
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 793
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0445e41f580ad4faa63ac81729435f
+      internalID: 1275255169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_76
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 795
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9782aa5c0632dc545b38998ef521f11b
+      internalID: -1430836997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_77
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 693
+        width: 35
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad67156a5f7f9cc41a1337b3e7cf6e67
+      internalID: 373621420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_78
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 695
+        width: 32
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d033314272bf442aa9135c89c09bc8
+      internalID: 755214939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_79
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 693
+        width: 77
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de25c4ded14d6c74fa0abc2bad16e6a0
+      internalID: -1341113995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_80
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 760
+        width: 71
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ca2f66734fe9448c02be633d6f3ab
+      internalID: -1073602470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_81
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 758
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e3f6968a55a5c42805dddb6a9b36f0
+      internalID: 1098645808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_82
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 716
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6cea45908ddd345b6e4bf6c4fbaf62
+      internalID: 1931093551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_83
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 706
+        width: 207
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e94e187ff11694197b70d5d616de88
+      internalID: 424181802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_84
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 775
+        width: 252
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58de159760bb874c9853b1a99fd4077
+      internalID: 706622608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_85
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 638
+        width: 480
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3727e219050c5ce449f76f564c3bf0fa
+      internalID: 410483783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_86
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 695
+        width: 23
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0de15b99c69e4e43a11bfd0a95f4a23
+      internalID: -615638787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_87
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 693
+        width: 22
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed847012c2155e24e9204088195824de
+      internalID: 936831069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_88
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 693
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b6d8343e49add4088a9ed7015d1149
+      internalID: -1366727382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_89
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 697
+        width: 305
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7529ee5a5fdbfc742897e612982cbbb8
+      internalID: 748084925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_90
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 756
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8212026f5f36684ea10701607dc3b06
+      internalID: 214074154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_91
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 598
+        width: 35
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c5a403a5723e2419def20d46507825
+      internalID: 362676386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_92
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 600
+        width: 38
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcef06d531ec5f9478c15649f3ee7b5f
+      internalID: -939165168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_93
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 685
+        width: 205
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266d7d80b89f694992553f023dd122d
+      internalID: -1599291796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_94
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 663
+        width: 28
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1850c077cbb7184b9a0710b7a367354
+      internalID: 1362888067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_95
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 661
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a313e0784f3d54c82e6dd4c9b72403
+      internalID: 1987453896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_96
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 661
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd44e25242e173458aff91e3112c53e
+      internalID: -741096478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_97
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 716
+        width: 6
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0a604c08c5b2245bace786587607f1
+      internalID: 678503884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_98
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 659
+        width: 207
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fe0aca3f5327a4b8da5d8340c1f293
+      internalID: -235750216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_99
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 649
+        width: 135
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440de30a02758334db355ccedcc47c2b
+      internalID: -529080856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_100
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 565
+        width: 49
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d3f32d775b9cf499b91136a190ef23
+      internalID: 1259025472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_101
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 565
+        width: 49
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3053eb8afd2293c428a58915db5caa8b
+      internalID: 1964860527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_102
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 632
+        width: 210
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97a066e887458144aed43e471a01404
+      internalID: 1490128041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_103
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 616
+        width: 358
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7658ebb8cbddb6c4287ac9da361fb54d
+      internalID: 651448166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_104
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 679
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a43b4aac13c21498d4c36d6ea3f8b4
+      internalID: 863230229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_105
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 670
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f057fa35039b8f45b43d0ca649b0ec2
+      internalID: -463688934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_106
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 581
+        width: 201
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e095dc0912d424459891d9149f6880e
+      internalID: 1793581609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_107
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 604
+        width: 203
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9335845b4d7ab9048849459e03f5274a
+      internalID: -666603839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_108
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 604
+        width: 138
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc193df2f529d848acaeb0c67a540ae
+      internalID: 1125117849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_109
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 398
+        width: 203
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16749c43d97586f4f9c999c117086f70
+      internalID: -225102574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_110
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 514
+        width: 141
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdd34039dd11c74e986bede2d98c731
+      internalID: 1777175005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_111
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 439
+        width: 138
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3444603800dedfc428113c081c30e655
+      internalID: -1451668444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_112
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 479
+        width: 208
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dae02c63c7f6b44a0936569fa8842b
+      internalID: -1239041906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_113
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 365
+        width: 204
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c2f06139ae1834297c045fd8526f0c
+      internalID: 1220513058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_114
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 478
+        width: 142
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580da0ed0f0d38342ad1e372eec51f3d
+      internalID: -626559427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_115
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 547
+        width: 202
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a67d1c2f65ef2248bba303e01ae92c3
+      internalID: -1884619579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_116
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 172
+        width: 427
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f85e17cc864f246aafde50bd7d07d8
+      internalID: 1414367151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_117
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 443
+        width: 488
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98392b12c2ea73247a8d0254e25651b8
+      internalID: -1769556204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_118
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 416
+        width: 25
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca9ec4c076ae534e93e9743be0963bf
+      internalID: 1332616571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_119
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 414
+        width: 26
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34f2d5efbd84d0469f79088480a8a85
+      internalID: 359084038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_120
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 427
+        width: 200
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56f893d7d6ac1149a1b5f062100aa33
+      internalID: 1679030170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_121
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 384
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08c5144406d1964da454e3938250e6e
+      internalID: 207303428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_122
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 382
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e07e4d6de1fd94d84c787682890cbb
+      internalID: 1441722075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_123
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 405
+        width: 139
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b595c48bb98f1da459cc0a91744243d6
+      internalID: -1780840086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_124
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 447
+        width: 210
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d997c461b509a7a4a8464bb2e41a7883
+      internalID: 713900862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_125
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 227
+        width: 394
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a73a35dfc1e4a4f98c3fc93d87c458
+      internalID: 2060232408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_126
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 321
+        width: 144
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7792d2c7af08049ab96b43b15e6c73
+      internalID: -170243402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_127
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 392
+        width: 143
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd17b160650f80246a8826c6f585af99
+      internalID: -574242597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_128
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 380
+        width: 204
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e12c6287cfc00439faf5b40c85f462
+      internalID: -1202578778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_129
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 337
+        width: 73
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1b9a60e4373b94886e28a66c15e174
+      internalID: -507558540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_130
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 282
+        width: 208
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1224a59a4f59042a188c4e22463f14
+      internalID: 725740518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_131
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 286
+        width: 142
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9dab7107029354abeb281da110e8f5
+      internalID: -1780790305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_132
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 327
+        width: 141
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eb471f25e6e4a4ca9a74f606b29f4d
+      internalID: 650011599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_133
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 286
+        width: 145
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e464dfeff523354f839342b6c8d45d3
+      internalID: -1388423321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_134
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 294
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570deed10eed9d141a9cb2e301cdba73
+      internalID: -809770404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_135
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 250
+        width: 146
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351836f9ae0ba084cba1ca0949bef9c0
+      internalID: 607391445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_136
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 249
+        width: 209
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c718802ebc189024daca83c4a24b17e7
+      internalID: 259767892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level_46: -1087825484
+      Level_135: 607391445
+      Level_91: 362676386
+      Level_89: 748084925
+      Level_121: 207303428
+      Level_36: -192341795
+      Level_110: 1777175005
+      Level_116: 1414367151
+      Level_1: 636165384
+      Level_84: 706622608
+      Level_61: 1747757603
+      Level_4: 1581710817
+      Level_69: -812561868
+      Level_132: 650011599
+      Level_14: -536245712
+      Level_66: -590593511
+      Level_92: -939165168
+      Level_56: 1858578680
+      Level_21: -1216057610
+      Level_93: -1599291796
+      Level_81: 1098645808
+      Level_117: -1769556204
+      Level_127: -574242597
+      Level_98: -235750216
+      Level_96: -741096478
+      Level_25: 715156308
+      Level_94: 1362888067
+      Level_33: -1964842425
+      Level_59: -1923180558
+      Level_51: -840445946
+      Level_15: 262509881
+      Level_39: 672909917
+      Level_130: 725740518
+      Level_29: 1383266427
+      Level_107: -666603839
+      Level_83: 424181802
+      Level_99: -529080856
+      Level_104: 863230229
+      Level_108: 1125117849
+      Level_134: -809770404
+      Level_65: 1020823988
+      Level_11: 1976234375
+      Level_60: -454009013
+      Level_2: -759369360
+      Level_113: 1220513058
+      Level_3: 589693667
+      Level_31: 1344904838
+      Level_85: 410483783
+      Level_86: -615638787
+      Level_62: 1209892116
+      Level_114: -626559427
+      Level_71: -2066495891
+      Level_88: -1366727382
+      Level_129: -507558540
+      Level_34: 1933849690
+      Level_78: 755214939
+      Level_0: 1652604236
+      Level_5: 1150315529
+      Level_49: -1599289896
+      Level_6: -700963018
+      Level_26: -421660237
+      Level_118: 1332616571
+      Level_48: 1168679046
+      Level_41: -248702656
+      Level_38: -559190675
+      Level_82: 1931093551
+      Level_112: -1239041906
+      Level_76: -1430836997
+      Level_27: 1316465829
+      Level_67: -1738589268
+      Level_13: -1289324051
+      Level_35: 663532604
+      Level_45: 1697060699
+      Level_79: -1341113995
+      Level_17: -109247979
+      Level_28: 1414786940
+      Level_119: 359084038
+      Level_90: 214074154
+      Level_102: 1490128041
+      Level_74: 792182559
+      Level_55: -855397306
+      Level_42: -2047731925
+      Level_53: -169275890
+      Level_52: -2021607528
+      Level_80: -1073602470
+      Level_37: -1314703211
+      Level_68: 927356717
+      Level_18: -249369606
+      Level_23: -1834408804
+      Level_100: 1259025472
+      Level_72: -2121844129
+      Level_103: 651448166
+      Level_105: -463688934
+      Level_133: -1388423321
+      Level_20: 1355247672
+      Level_87: 936831069
+      Level_22: -2138348621
+      Level_136: 259767892
+      Level_73: 28013981
+      Level_77: 373621420
+      Level_9: -1956603005
+      Level_64: 1710935419
+      Level_125: 2060232408
+      Level_111: -1451668444
+      Level_16: -206140546
+      Level_128: -1202578778
+      Level_43: 1846103186
+      Level_7: 1641921062
+      Level_124: 713900862
+      Level_122: 1441722075
+      Level_32: -569046485
+      Level_101: 1964860527
+      Level_131: -1780790305
+      Level_70: 2044817406
+      Level_19: 56877944
+      Level_47: -1344264574
+      Level_109: -225102574
+      Level_40: 1045082967
+      Level_106: 1793581609
+      Level_75: 1275255169
+      Level_50: 451827847
+      Level_115: -1884619579
+      Level_97: 678503884
+      Level_54: 1501614360
+      Level_63: 2078663503
+      Level_44: -745883194
+      Level_123: -1780840086
+      Level_58: -1764822514
+      Level_12: -1518245988
+      Level_95: 1987453896
+      Level_10: 931644161
+      Level_120: 1679030170
+      Level_8: -1624976939
+      Level_126: -170243402
+      Level_30: 1463088488
+      Level_57: -1908305671
+      Level_24: 154888573
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
