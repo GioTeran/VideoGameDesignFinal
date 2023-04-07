@@ -1,56 +1,95 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Interfaces;
+using Enums;
+using Extensions;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(IInputProvider))]
 public class PlatformMovement: MonoBehaviour
 {
+    
     private Rigidbody2D _rigidbody;
+    private IInputProvider _inputProvider;
+    private ICheck _groundCheck;
+    private float _inputX;
+    private Animator _animator;
 
+    [Header("Movement Configuration")]
+    [SerializeField]
+    private float walkSpeed;
+    [SerializeField]
+    private float jumpForce;
+    [SerializeField]
+    private GameObject groundCheckObject;
+
+    private static readonly int IsWalking = Animator.StringToHash("IsWalking");
+    private static readonly int Grounded = Animator.StringToHash("IsGrounded");
+    private static readonly int VerticalVelocity = Animator.StringToHash("VerticalVelocity");
     
-    public Transform GroundCheck;
 
-    
-    public float GroundCheckRadius = 0.05f;
-
-    
-    public float speed = 2f;
-
-    
-    public float jumpForce = 10f;
-
-   
-    public LayerMask collisionMask;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _inputProvider = GetComponent<IInputProvider>();
+        _groundCheck = groundCheckObject.GetComponent<ICheck>();
+        _animator = GetComponent<Animator>();
 
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        var inputX = Input.GetAxisRaw("Horizontal");
-        var jumpInput = Input.GetButton("Jump");
+        ApplyHorizontalMovement();
+        ApplyJump();
+    }
+    
+    private void Update()
+    {
+        CaptureHorizontalInput();
+        ApplyWalkingDirection();
+        ApplyAnimations();
+    }
 
-        _rigidbody.velocity = new Vector2(inputX * speed, _rigidbody.velocity.y);
-
-        if(jumpInput && IsGrounded())
+    private void ApplyJump()
+    {
+        if(IsGrounded() && _inputProvider.GetActionPressed(InputAction.Jump))
         {
-            _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, jumpForce);
-
+            _rigidbody.SetVelocity(Axis.Y, jumpForce );
         }
-
-        if(inputX != 0)
-        {
-            transform.localScale = new Vector3(Mathf.Sign(inputX), 1, 1);
-        }
+        
     }
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(GroundCheck.position, GroundCheckRadius, collisionMask );
+        return _groundCheck.Check();
+    }
+
+    private void ApplyHorizontalMovement()
+    {
+        
+        _rigidbody.SetVelocity(Axis.X, _inputX * walkSpeed);
+    }
+   
+   private void ApplyWalkingDirection()
+   {
+    
+        if (_inputX != 0)
+        {
+            transform.localScale = new Vector3(Mathf.Sign(_inputX),1,1);
+        }
+    
+   }
+
+   private void CaptureHorizontalInput()
+   {
+        _inputX = _inputProvider.GetAxis(Axis.X);
+   }
+    private void ApplyAnimations()
+    {
+        _animator.SetBool(IsWalking, _inputX != 0);
+        _animator.SetBool(Grounded, IsGrounded());
+        _animator.SetFloat(VerticalVelocity, _rigidbody.velocity.y);
     }
 
 }
