@@ -82,6 +82,12 @@ MonoBehaviour:
     volume: 0.658
     pitch: 1
     source: {fileID: 0}
+  - name: HealPickUp
+    clip: {fileID: 8300000, guid: 8e70e1f03cf8e194dbe5eb543d453c7f, type: 3}
+    outputAudioMixerGroup: {fileID: 5902262467805995816, guid: b41e3f4644714244b8f79619e3bc4ff4, type: 2}
+    volume: 0.378
+    pitch: 1
+    source: {fileID: 0}
 --- !u!82 &4636787738250559183
 AudioSource:
   m_ObjectHideFlags: 0

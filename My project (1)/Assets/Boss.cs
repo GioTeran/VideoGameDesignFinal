@@ -21,7 +21,7 @@ public class Boss : MonoBehaviour
 
 		
 		if(player == null)
-			return;
+			return;	
 		if (transform.position.x < player.position.x && isFlipped)
 		{
 			transform.localScale = flipped;

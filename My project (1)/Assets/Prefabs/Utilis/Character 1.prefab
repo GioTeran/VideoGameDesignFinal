@@ -275,7 +275,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 11
   m_Sprite: {fileID: 210522987, guid: 0d0c65a433a19714a9527dc0c183b86e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -359,7 +359,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: 1477263520, guid: 0d0c65a433a19714a9527dc0c183b86e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -527,7 +527,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 8
   m_Sprite: {fileID: 2082452561, guid: 0d0c65a433a19714a9527dc0c183b86e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -695,7 +695,9 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   HealthBoost: {fileID: 2730200547736992389, guid: 2330d2b9d0962c2438c4b9b26aca55b1, type: 3}
-  HealthBonus: 15
+  HealthBonus: 50
+  character: {fileID: 0}
+  sceneBuildIndex: 0
   healthBar: {fileID: 7999005245152594823}
 --- !u!114 &8502969692221375812
 MonoBehaviour:

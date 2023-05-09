@@ -18,7 +18,8 @@ public class HealthPickUp : MonoBehaviour
     {
         if(col.gameObject.CompareTag("Player") && playerHealth.currentHealth < playerHealth.maxHealth)
         {
-            col.gameObject.GetComponent<PlayerHealth>().AddHealth(15);
+            col.gameObject.GetComponent<PlayerHealth>().AddHealth(50);
+            FindObjectOfType<AudioManager>().Play("HealPickUp");
             Destroy(gameObject);
         }
     }
