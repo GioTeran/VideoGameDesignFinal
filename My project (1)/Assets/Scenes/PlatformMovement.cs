@@ -23,6 +23,8 @@ public class PlatformMovement: MonoBehaviour
     private float jumpForce;
     [SerializeField]
     private GameObject groundCheckObject;
+    private bool doubleJump;
+   
 
     private static readonly int IsWalking = Animator.StringToHash("IsWalking");
     private static readonly int Grounded = Animator.StringToHash("IsGrounded");
@@ -35,6 +37,7 @@ public class PlatformMovement: MonoBehaviour
         _inputProvider = GetComponent<IInputProvider>();
         _groundCheck = groundCheckObject.GetComponent<ICheck>();
         _animator = GetComponent<Animator>();
+      
 
     }
 
@@ -49,14 +52,27 @@ public class PlatformMovement: MonoBehaviour
         CaptureHorizontalInput();
         ApplyWalkingDirection();
         ApplyAnimations();
+
     }
 
     private void ApplyJump()
     {
-        if(IsGrounded() && _inputProvider.GetActionPressed(InputAction.Jump))
+
+        if(IsGrounded() && !Input.GetButton("Jump"))
         {
-            _rigidbody.SetVelocity(Axis.Y, jumpForce );
+            doubleJump = false;
         }
+        if(_inputProvider.GetActionPressed(InputAction.Jump))
+       {
+            if( IsGrounded() || doubleJump )
+            {
+                _rigidbody.SetVelocity(Axis.Y, jumpForce );
+                FindObjectOfType<AudioManager>().Play("PlayerJump");
+                doubleJump = !doubleJump;
+           
+
+            }
+       }
         
     }
 
@@ -69,6 +85,7 @@ public class PlatformMovement: MonoBehaviour
     {
         
         _rigidbody.SetVelocity(Axis.X, _inputX * walkSpeed);
+        
     }
    
    private void ApplyWalkingDirection()
@@ -77,6 +94,7 @@ public class PlatformMovement: MonoBehaviour
         if (_inputX != 0)
         {
             transform.localScale = new Vector3(Mathf.Sign(_inputX),1,1);
+            
         }
     
    }

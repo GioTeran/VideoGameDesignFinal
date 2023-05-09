@@ -36,7 +36,7 @@ namespace Behaviours.InputSystems
             if(Input.GetButtonUp(JumpButton))
             {
                 _requestedActions.Remove(InputAction.Jump);
-            }
+            } 
         }
 
     }

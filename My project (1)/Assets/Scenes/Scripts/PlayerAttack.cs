@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Enemys;
+
 
 
 
@@ -16,8 +16,13 @@ public class PlayerAttack : MonoBehaviour
     public Transform attackPos;
     public float attackRange;
     public LayerMask whatIsEnemies;
+   
     public int damage;
+    public int staminaLoss= 10;
     public Animator playerAnim;
+    
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -29,14 +34,20 @@ public class PlayerAttack : MonoBehaviour
     {
         if(timeBtwAttack <= 0){
             // then you can attack
-            if(Input.GetKey(KeyCode.Mouse0)){
+            if(Input.GetKey(KeyCode.Mouse0) && GetComponent<PlayerStamina>().currentStamina != 0){
                 //camAnim.SetTrigger("shake");
                 playerAnim.SetTrigger("Attack");
+                FindObjectOfType<PlayerStamina>().TakeStamina(staminaLoss);
+
+                FindObjectOfType<AudioManager>().Play("PlayerAttackSword");
 
                 timeBtwAttack = startTimeBtwAttack;
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange,whatIsEnemies );
+                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies );
+              
                 for(int i = 0; i < enemiesToDamage.Length; i++){
                     enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                
+                    FindObjectOfType<AudioManager>().Play("SwordHit");
                 }
             }
             

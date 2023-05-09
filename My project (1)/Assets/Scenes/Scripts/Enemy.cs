@@ -2,22 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Interfaces;
+using UnityEngine.AI;
+using Pathfinding;
 
-namespace Enemys{
+
 public class Enemy : MonoBehaviour
 {
 
-    public GameObject pointA;
-    public GameObject pointB;
+    //public AIPath aiPath;
     private Rigidbody2D rb;
-    private Animator anim;
+    public Animator anim;
     private Transform currentPoint;
     public int health;
     public float speed;
     private ICheck _groundCheck;
-    public GameObject bloodEffect;
+    
+    
     private float dazedTime;
     public float startDazedTime;
+    public GameObject Blood;
+    public bool isInvulnerable = false;
 
     [SerializeField]
     private GameObject groundCheckObject;
@@ -25,72 +29,80 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        currentPoint=  pointB.transform;
-        anim.SetBool("IsWalking", true);
+        
+        
         _groundCheck = groundCheckObject.GetComponent<ICheck>();
     }
 
     // Update is called once per frame
     void Update()
+
     {
+        
+       /* if(aiPath.desiredVelocity.x <= 0.01f)
+        {
+            transform.localScale= new Vector3(-1f,1f,1f);
+
+        } else if (aiPath.desiredVelocity.x >= -0.01f)
+        {
+            transform.localScale = new Vector3(1f,1f,1f);
+        } */
+      
         if(dazedTime <= 0) {
             speed = 5;
         }else {
             speed = 0;
             dazedTime -= Time.deltaTime;
         }
-        Vector2 point = currentPoint.position - transform.position;
-        if(currentPoint == pointB.transform)
-        {
-           rb.velocity = new Vector2(speed, 0);
-        }
-        else 
-        {
-            rb.velocity = new Vector2(-speed, 0 );
-        }
-
-        if(Vector2.Distance(transform.position , currentPoint.position) < .5f && currentPoint == pointB.transform)
-        {
-            flip();
-            currentPoint = pointA.transform;
-        }
-        if(Vector2.Distance(transform.position , currentPoint.position) < .5f && currentPoint == pointA.transform)
-        {
-            flip();
-            currentPoint = pointB.transform;
-        }
+      
 
         if(health <= 0){
             Destroy(gameObject);
         }
     }
-    public void TakeDamage( int damage){
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Spike"))
+        {
+            Destroy(gameObject);
+        }
+    }
+    public void TakeDamage( int damage)
+    {
         dazedTime =startDazedTime;
-        //Instantiate(bloodEffect, transform.position, Quaternion.identity);
+        Instantiate(Blood, transform.position, Quaternion.identity);
+        if(isInvulnerable)
+        {
+            return;
+        }
+        
+
+
         health -= damage;
         Debug.Log("damage Taken");
+        if (health <= 200)
+		{
+			GetComponent<Animator>().SetBool("IsEnraged", true);
+		}
     }
+
+    
 
      private bool IsGrounded()
     {
         return _groundCheck.Check();
     }
 
-    private void flip()
-    {
-        Vector3 localScale = transform.localScale;
-        localScale.x *=-1;
-        transform.localScale = localScale;
-    }
-   private void OnDrawGizmos()
-   {
-    Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
-    Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
-    Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
-   }
+   
+   
+ 
 }
 
-}
+
+
 

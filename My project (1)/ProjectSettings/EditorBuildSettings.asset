@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Prefabs/Utilis/Level 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: 7bd38be24b94e75438fc22988b450253
+  - enabled: 1
+    path: Assets/Prefabs/Utilis/Level2.unity
+    guid: f7db00b713f441e498b14552b6edb470
+  - enabled: 1
+    path: Assets/Prefabs/Utilis/Level3.unity
+    guid: f9bed24fb0dd52f4094087de18194a0d
+  - enabled: 1
+    path: Assets/Prefabs/Utilis/Level4.unity
+    guid: b91a57b387a4ea2499710bb3f584ad4f
   m_configObjects: {}
